@@ -6,6 +6,10 @@ import os
 
 
 class Syllableizer:
+    '''
+    Class which takes in a string and then will return a list of the string tokenized into its phonic syllables
+    '''
+    
     def __init__(self, dictPath):
         self.p = inflect.engine()
         self.d = {}
@@ -26,18 +30,20 @@ class Syllableizer:
 
     def split_words(self, usr_input):
         words = usr_input
-        words = words.replace(".", " . ")
-        words = words.replace("!", " !")
-        words = words.replace("?", " ? ")
-        words = words.replace(",", " , ")
-        words = words.replace("-", " - ")
-        words = words.replace(":", " : ")
-        words = words.replace(";", " ; ")
-        words = words.replace("\"", " \" ")
-        words = words.replace(")", " ) ")
-        words = words.replace("(", " ( ")
+        # separate punctiation to separate all words for tokenizing
+        words = words.replace(".", " .PERIOD ")
+        words = words.replace("!", " !EXCLAMATION-POINT ")
+        words = words.replace("?", " ?QUESTION-MARK ")
+        words = words.replace(",", " ,COMMA ")
+        words = words.replace("-", " -HYPHEN ")
+        words = words.replace(":", " :COLON ")
+        words = words.replace(";", " ;SEMI-COLON ")
+        words = words.replace("\"", " \"QUOTE ")
+        words = words.replace(")", " )CLOSE-PARENTHESES ")
+        words = words.replace("(", " (OPEN-PARENTHESES ")
         words = words.replace("\\", " \\ ")
-        words = words.replace("/", " / ")
+        words = words.replace("/", " /SLASH ")
+        words = words.replace("%", " %PERCENT ")
         words = words.replace("[", " [ ")
         words = words.replace("]", " ] ")
         words = words.split()
@@ -70,7 +76,7 @@ class Syllableizer:
 
 
 def main(args):
-    parser = Syllableizer()
+    parser = Syllableizer('cmudict-modified.txt')
     usr_input = "none"
     while (usr_input != "quit"):
         usr_input = raw_input('enter word to break apart\n')
