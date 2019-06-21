@@ -1,5 +1,5 @@
 # syllableizer
-The purpose of this repository is to change words from their string forms into their phonetic syllables. This was used with the text to speech dictionary from Sphinx (http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/). The dictionary was used under their Copyright:
+The purpose of this repository is to change words from their string forms into their phonetic syllables. This was used with the text to speech dictionary from The CMU Pronouncing Dictionary (http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/). The dictionary was used under their Copyright:
 
 ;;; # Copyright (C) 1993-2015 Carnegie Mellon University. All rights reserved.
 ;;; #
@@ -39,5 +39,5 @@ ________________________________________________________________________________
 Redistribution and use of the code in this repository, with or without
 modification, is permitted provided that the following conditions are met:
 
-1. Conditions of the Sphinx copyright are met
+1. Conditions of The CMU Pronouncing Dictionary copyright are met
 2. Conditions of the MIT Lisence the repository is released under are met
