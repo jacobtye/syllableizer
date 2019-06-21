@@ -1,5 +1,6 @@
 # syllableizer
 The purpose of this repository is to change words from their string forms into their phonic syllables. This was used with the text to speech dictionary from Sphinx (http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/). The dictionary was used under their Copyright:
+
 ;;; # Copyright (C) 1993-2015 Carnegie Mellon University. All rights reserved.
 ;;; #
 ;;; # Redistribution and use in source and binary forms, with or without
@@ -33,8 +34,10 @@ The purpose of this repository is to change words from their string forms into t
 ;;; # THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 ;;; # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 ;;; # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
 __________________________________________________________________________________
 Redistribution and use of the code in this repository, with or without
 modification, is permitted provided that the following conditions are met:
+
 1. Conditions of the Sphinx copyright are met
 2. 
