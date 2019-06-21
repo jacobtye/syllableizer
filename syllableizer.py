@@ -7,7 +7,7 @@ import os
 
 class Syllableizer:
     '''
-    Class which takes in a string and then will return a list of the string tokenized into its phonic syllables
+    Class which takes in a string and then will return a list of the string tokenized into its phonetic syllables
     '''
     
     def __init__(self, dictPath):
