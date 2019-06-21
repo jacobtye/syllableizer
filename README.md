@@ -40,4 +40,4 @@ Redistribution and use of the code in this repository, with or without
 modification, is permitted provided that the following conditions are met:
 
 1. Conditions of the Sphinx copyright are met
-2. 
+2. Conditions of the MIT Lisence the repository is released under are met
